@@ -18,7 +18,6 @@
 *-converted-to.*
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
-*.bbl
 *.bcf
 *.blg
 *-blx.aux
@@ -41,9 +40,6 @@ latex.out/
 # algorithms
 *.alg
 *.loa
-
-# achemso
-acs-*.bib
 
 # amsthm
 *.thm
@@ -123,12 +119,7 @@ acs-*.bib
 
 # knitr
 *-concordance.tex
-# TODO Comment the next line if you want to keep your tikz graphics files
-*.tikz
 *-tikzDictionary
-
-# listings
-*.lol
 
 # luatexja-ruby
 *.ltjruby
@@ -186,9 +177,6 @@ sympy-plots-for-*.tex/
 # pythontex
 *.pytxcode
 pythontex-files-*/
-
-# tcolorbox
-*.listing
 
 # thmtools
 *.loe

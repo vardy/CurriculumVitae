@@ -240,4 +240,3 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 %%%%%%%%%%%%%%%%
 
 \RequirePackage[left=6.85cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry} % Margin for main page content defined here.
-\RequirePackage{hyperref}

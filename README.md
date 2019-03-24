@@ -1,4 +1,4 @@
-<h2 align="center">Jarred Vardy Curriculum Vitae</h3>
+<h3 align="center">Jarred Vardy Curriculum Vitae</h3>
 <p align="center"><i>Which is also a bootloader...</i></p>
 
 ----

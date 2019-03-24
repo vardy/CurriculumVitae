@@ -6,7 +6,7 @@
 `nasm -f bin boot.asm -o boot.bin`
 
 *Run bootloader:*    
-`qemu-system-i386 -fda ./boot.bin`
+`qemu-system-i386 -fda boot.bin`
 
 > Requires nasm and qemu. To install on Mac:    
 > `brew install nasm qemu`
@@ -20,7 +20,7 @@
 `python3 loader.py`
 
 *Run the final CV bootloader with QEMU:*    
-`qemu-system-i386 -fda ./CV.pdf`
+`qemu-system-i386 -fda CV.pdf`
 
 
 > Requires qpdf. To install on Mac:    

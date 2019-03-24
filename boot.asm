@@ -296,8 +296,8 @@ print_text:
 bootdrv: db 0              
 
 ; Data
-msg1:    db "IT'S DANGEROUS TO GO"
-msg2:    db "ALONE!   TAKE ME."
+msg1:    db "   The self-taught  "
+msg2:    db " problem   solver."
 rock:    dw 0xC3B7, 0xDFCF, 0xFFCF, 0x7FCF, 0x7FE6, 0xFFEF, 0xBFEF, 0xBFEF, 0x7FE7, 0xFFEF, 0x7DE7, 0x3C9B, 0x7DFD, 0xBC7D, 0xFCFF, 0x2CFC ; 32 bytes
 
 ; The first sector MUST be 512 bytes and the last 2 bytes have to be 0xAA55 for it

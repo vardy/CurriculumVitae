@@ -1,5 +1,5 @@
-<h3>Jarred Vardy Curriculum Vitae</h3>
-<p><i>Which is also a bootloader...</i></p>
+<h1 align="center">Jarred Vardy Curriculum Vitae</h3>
+<p align="center"><i>Which is also a bootloader...</i></p>
 
 ## Compiling and running bootloader.
 

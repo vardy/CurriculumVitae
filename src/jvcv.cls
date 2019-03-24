@@ -165,7 +165,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 }
 \renewcommand{\bfseries}{\headingfont\color{boldcolor}}
 \newcommand{\jobentry}[4]{%
-  #1&\parbox[t]{10.2cm}{% Value dictates experience listing main paragraph width.
+  #1&\parbox[t]{10.4cm}{% Value dictates experience listing main paragraph width.
     \textbf{#2}%
     \hfill%
     {\footnotesize\addfontfeature{Color=lightgrey} #3}\\%
@@ -204,7 +204,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 }
 \renewcommand{\bfseries}{\headingfont\color{boldcolor}}
 \newcommand{\eduentry}[4]{%
-  #1&\parbox[t]{10.2cm}{% Value dictates experience listing main paragraph width.
+  #1&\parbox[t]{11cm}{% Value dictates experience listing main paragraph width.
     \textbf{#2}%
     \hfill\vspace{0.1cm}%
     {\footnotesize\addfontfeature{Color=lightgrey} #3}\\%

@@ -32,6 +32,7 @@
 \definecolor{purple}{HTML}{D3A4F9}
 \definecolor{red}{HTML}{FB4485}
 \definecolor{blue}{HTML}{6CE0F1}
+\definecolor{aus_red}{HTML}{AE3135}
 
 % Defining element colours
 \ifdefined\@cv@print
@@ -122,7 +123,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   {%
     \color{%
       \ifcase\value{colorCounter}%
-        blue\or%
+        aus_red\or%
         red\or%
         orange\or%
         green\or%

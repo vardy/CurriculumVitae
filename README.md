@@ -8,8 +8,8 @@
 *Run bootloader:*    
 `qemu-system-i386 -fda ./boot.bin`
 
-Requires `nasm` and `qemu`. To install on Mac:    
-`brew install nasm qemu`
+> Requires nasm and qemu. To install on Mac:    
+> `brew install nasm qemu`
 
 ## Loading binary into PDF
 
@@ -23,5 +23,5 @@ Requires `nasm` and `qemu`. To install on Mac:
 `qemu-system-i386 -fda ./CV.pdf`
 
 
-Requires `qpdf`. To install on Mac:    
-`brew install qpdf`
+> Requires qpdf. To install on Mac:    
+> brew install qpdf

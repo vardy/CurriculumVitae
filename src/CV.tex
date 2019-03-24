@@ -1,33 +1,48 @@
-\documentclass[12pt,a4paper]{article}
+%!TEX TS-program = xelatex
+\documentclass[]{jvcv}
 
-\usepackage[utf8]{inputenc}  % International characters
-\usepackage{geometry}        % Document geometry
 \usepackage{microtype}       % Typography refinements
-
-\geometry{margin=0.8in}      % Set document margins
-\usepackage{lmodern}         % Use Latin Modern font
 
 % Document start
 %
 \begin{document}
 
 % Header area
-%
-\title{Jarred Vardy}
-\maketitle
-This CV is a bootloader (seriously)! Emulate with QEMU or use a USB to boot.
+\header{Jarred}{Vardy}
+       {This CV file is a bootloader! Emulate with QEMU or use a USB to boot.}
+
 %TODO hyperlink 'is a bootloader' to link to GitHub repository
 %TODO include GitHub, LinkedIn, Email, location
 
 
+%Side-bar
+%
+\begin{aside}
+	\section{Briefly...}\vspace{0.1cm}
+	Jarred Vardy
+	\section{Contact...}\vspace{0.1cm}
+	jarred.vardy@gmail.com
+	linkedin.com/in/jarred-vardy
+\end{aside}
+
+% About Me
+%
+\section{About Me}
+Full-stack web developer and back-end software engineer.
+I focus keenly on efficiency and cleanliness, taking care to have readable, documented code.
+
+
 % Skills
 %
+\vspace{0.5cm}
 \section{Skills}
 \subsection{Languages}
 Fluently: Java, Python, JavaScript (Node, Vue, In-Browser), LaTeX, HTML, CSS\\
 Partially: C, Assembly, Crystal, Go, PHP
 
+\vspace{0.1cm}
 \subsection{Other}
+Soft skills go here.
 %TODO speaking and conveying ideas.
 %TODO speaking my mind when something doesnt look right
 %TODO unit testing, continuous deployment, version control, Docker, DevOps
@@ -35,20 +50,55 @@ Partially: C, Assembly, Crystal, Go, PHP
 
 % Experience
 %
+\vspace{0.5cm}
 \section{Experience}
-\subsection{Work}
 
-% Job 1
-\subsubsection{Asialion • Full-Stack Web Developer Jan 2019 - Now}
+\subsection{Jobs}
+\vspace{0.05cm}
+
+\begin{jobslist}
+	\jobentry
+		{Jan 2019 - Now}
+		{Asialion {\normalfont Full-stack PHP web developer.}}
+		{Remote, paid}
+		{Content}
+\end{jobslist}
 %TODO list what I do
 %TODO action verbs, no first person
 
 % Personal Projects
 %
+\vspace{0.1cm}
 \subsection{Personal Projects}
+\vspace{0.05cm}
+
+\begin{projectslist}
+	\projectentry
+		{2017}
+		{IB.ai {\normalfont private Discord bot.}}
+		{Educational, FOSS}
+		{Content}
+\end{projectslist}
 %TODO List projects - monetised? Tags! Same as website.
 
+% Education
+%
+\vspace{0.5cm}
 \section{Education}
-%TODO lol what education
+
+\begin{edulist}
+	\eduentry
+		{2020 - Now}
+		{Bsc. Computer Science}
+		{University Bachelor's}
+		{Studying Computer Science, majoring in\\
+		software engineering and minoring in operating systems.}
+	\eduentry
+		{2017 - 2018}
+		{International Baccalaureate Diploma}
+		{High School}
+		{Graduated with a score of 37 from St. Joseph's\\
+		Institution International}
+\end{edulist}
 
 \end{document}

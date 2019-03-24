@@ -1,3 +1,6 @@
+## Binaries:
+*.bin
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -13,6 +16,7 @@
 .*.lb
 
 ## Intermediate documents:
+uncompressed.pdf
 *.dvi
 *.xdv
 *-converted-to.*

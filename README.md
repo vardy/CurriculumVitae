@@ -3,6 +3,11 @@
 
 ----
 
+## Dependencies
+
+To compile: `nasm, qpdf`
+To run: `qemu`
+
 ## Compiling and running bootloader.
 
 *Compile assembly file:*    
@@ -10,9 +15,6 @@
 
 *Run bootloader:*    
 `qemu-system-i386 -fda boot.bin`
-
-> Requires nasm and qemu. To install on Mac:    
-> `brew install nasm qemu`
 
 ## Loading binary into PDF
 
@@ -24,7 +26,3 @@
 
 *Run the final CV bootloader with QEMU:*    
 `qemu-system-i386 -fda CV.pdf`
-
-
-> Requires qpdf. To install on Mac:    
-> brew install qpdf

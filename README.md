@@ -5,7 +5,7 @@
 
 ## Dependencies
 
-To compile: `nasm, qpdf`
+To compile: `nasm, qpdf`    
 To run: `qemu`
 
 ## Compiling and running bootloader.
